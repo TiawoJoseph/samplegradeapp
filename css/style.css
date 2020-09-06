@@ -1,0 +1,266 @@
+body{
+    background-color: black;
+    color: #fff;
+    Font-family:Arial, helvetica, sans-serif;
+    font-size:16px;
+    Line-height:1.6em;
+    margin:0;
+ 
+
+}
+.image-area{
+    background-image:url('../images/toronto-nye.jpg');
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    image-rendering: repeat;
+}
+
+.image-areaa{
+    background-image:url('../images/chr.005.jpg');
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    image-rendering: repeat;
+}
+
+.break{
+    List-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    float:right;
+
+}
+
+
+
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align:center;
+    
+}
+
+#main-header{
+    background-color:black;
+    color:#fff;
+    text-align: center;
+    opacity: .6;
+
+}
+
+#navbar{
+    background-color: black;
+    color:#fff;
+    opacity: .6;
+    filter: alpha(opacity = 50);
+    
+}
+
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+    
+
+}
+#navbar li {
+    display:inline;
+    
+
+}
+#navbar a{
+    color:blue;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+  
+    
+}
+
+#showcase {
+    background-color:black;
+    background-position:center right;
+    height:300px;
+    margin-bottom:30px;
+    text-align:center;
+    opacity: .6;
+    
+}
+
+#joseph{
+    background-image:url('../images/joseph.jpg');
+    width:10px;
+    height:10px;
+    background-size: 25%;
+    position: center;
+    
+    
+}
+
+
+#showcase h1{
+    
+    font-size:20px;
+    line-height:1.6em;
+    padding-top:30px;
+    text-align:center;
+
+}
+.button{
+    background-color:purple;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+
+   
+
+}
+#main h1 {
+    text-align: left;
+    color:blue;
+  
+
+
+}
+
+#main h2{
+    text-align:right ;
+}
+
+#sidebar{
+  text-align: center;
+    width:40%;
+    padding:-15px;
+    box-sizing:border-box;
+    top:0px;
+    bottom:55px;
+    background: rgba(5, 5, 5, 5);
+    box-shadow: 0 2px 5px rgba (0,0,0,.5);
+    opacity: .6;
+    margin:0 auto;
+   
+}
+#sidebarr{
+    position: relative;
+    width:40%;
+    padding:-15px;
+    box-sizing:border-box;
+    top:0px;
+    bottom:55px;
+    background: rgba(5, 5, 5, 5);
+    box-shadow: 0 2px 5px rgba (0,0,0,.5);
+    opacity: .6;
+    
+    
+}
+#sidebar2{
+margin:auto;
+padding-top:-1250px;
+margin-left:900px;
+margin-top:0px;
+
+
+}
+
+#sidebarrr{
+    text-align: center;
+      width:40%;
+      padding:-15px;
+      box-sizing:border-box;
+      top:0px;
+      bottom:55px;
+      background: rgba(5, 5, 5, 5);
+      box-shadow: 0 2px 5px rgba (0,0,0,.5);
+      opacity: .6;
+      margin:0 auto;
+  }
+.loginbox{
+    width:320px;
+    height:420px;
+    background:#000;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+    opacity: .8;
+}
+.loginbox-h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.loginbox-p{
+    margin:0;
+    padding:0 ;
+    font-weight: bold;
+    
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+
+}
+.loginbox input[type="text"], input[type="password"] 
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+   color:#fff;
+   font-size: 16px;
+
+    
+}
+.loginbox button
+{
+    border:none;
+    background:#800080;
+    outline:none;
+    height:40px;
+   color:#fff;
+   font-size: 18px;
+
+    
+}
+.feildset{
+        margin-bottom:20px;
+    }
+
+.my-form{
+width:320px;
+    height:1200px;
+    background:#000;
+    color:#fff;
+    top:100%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px 30px;
+    opacity: .8;
+    margin-top:200px;
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tiawojoseph Grades</title>
+    <link rel = "stylesheet" type= "text/css" href= "css/stylee.css">
+     <link rel="shortcut icon" type="image/jpeg" href="images/showcase.jpg">
+</head>
+<body>
+        <div class = "image-area"></div>
+    <header id="main-header">
+        <div class="container">
+        <h1>Tiawojoseph.Tech</h1>
+    </div>
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <ul>  
+                <li><a href="INDEX.HTML">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Grade Report</a></li>
+            </ul>
+        
+    </div>
+</nav>
+
+<div class = "container">
+    <section id = "main">
+        <h1>
+            <!--insert text-->
+        </h1>
+    </section>
+       
+    <br>
+    
+    <br>
+
+    <h1>Tiawojoseph Grades</h1>
+    <h2>Please enter in your grades</h2>
+    <p>Only enter in the fields that you need.</p>
+  
+    <br>
+    <br>
+    <br>
+    
+    <form class="my-form">
+        <div>
+            <h1>Course Grade</h1>
+            <label>Number Of Classes:</label>
+            <input id= "num_classes"type="text" >
+
+</div>
+<div>
+            <label>Course code/Name:</label>
+            <input id= "course_name"type="text" >
+</div>
+<div>
+            <label>Number of Grade Entries:</label>
+            <input id ="num_grade" type="number" >
+</div>
+<div>
+            <label>Asessment 1</label>
+            <input id = "assesment1"type="text" >
+  
+</div>
+<div>
+        <label>Mark out of 100:</label>
+        <input id ="mark1_100"type="number" >
+</div>
+
+<div>
+        <label>Weight of the mark:</label>
+        <input id ="Weight1" type="number" >
+</div>
+<div>
+        <label>Asessment 2</label>
+        <input id = "assesment2"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark2_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight2" type="number" >
+</div>
+<div>
+        <label>Asessment 3</label>
+        <input id = "assesment3"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark3_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight3" type="number" >
+</div>
+<div>
+        <label>Asessment 4</label>
+        <input id = "assesment4"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark4_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight4" type="number" >
+</div>
+<div>
+        <label>Asessment 5</label>
+        <input id = "assesment5"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark5_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight5" type="number" >
+</div>
+<div>
+        <label>Asessment 6</label>
+        <input id = "assesment6"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark6_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight6" type="number" >
+</div>
+<div>
+        <label>Asessment 7</label>
+        <input id = "assesment7"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark7_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight7" type="number" >
+</div>
+<div>
+        <label>Asessment 8</label>
+        <input id = "assesment8"type="text" >
+
+</div>
+<div>
+    <label>Mark out of 100:</label>
+    <input id ="mark8_100"type="number" >
+</div>
+
+<div>
+    <label>Weight of the mark:</label>
+    <input id ="Weight8" type="number" >
+</div>
+
+<h1 id= "answer"></h1>
+<div class ="card ">
+    <div class="card-block">
+        <h4 id= "FG">Final Grade:</h4>
+        <div id="FinalGrade"></div>
+    </div>
+</div>
+
+        <legend>Course name and Mark</legend>
+        <div id="lsOutput"></div>
+        
+
+        <br>
+    <br>
+        <button type= "button"onclick="calc()">calculate</button> 
+
+        <div>
+            <h1>Course mark Calculated</h1>
+                <label>Course code</label>
+                <input id ="cnsc"type="text" >
+            </div>
+            <br>
+        
+            <div>
+                <label>Mark received </label>
+                <input id ="grd" type="number" >
+            </div>
+            <br>
+        <button id="btnInsert"type= "button" onclick="funtion()">save</button>
+
+        <div>
+                <h1>Overall GPA</h1>
+                <div>
+            
+                    <label>Number of courses</label>
+                    <input id= "num_c"type="text" >
+        
+        </div>
+                <label>Course 1 mark</label>
+                <input id= "course1"type="number" >
+    
+    </div>
+    <div>
+            <label>Course 2 mark</label>
+            <input id= "course2"type="number" >
+    </div>
+    <div>
+            <label>Course 3 mark</label>
+            <input id= "course3"type="number" >
+    </div>
+    <div>
+            <label>Course 4 mark</label>
+            <input id= "course4"type="number" >
+      
+    </div>
+    <div>
+            <label>Course 5 mark</label>
+            <input id= "course5"type="number" >
+    </div>
+    
+    <div>
+            <label>Course 6 mark</label>
+            <input id= "course6"type="number" >
+    </div>
+    <div>
+            <label>Course 7 mark</label>
+            <input id= "course7"type="number" >
+    
+    </div>
+    <div>
+            <label>Course 8 mark</label>
+            <input id= "course8"type="number" >
+
+            <br>
+            <br>
+            <br>
+            <button type= "button"onclick="cal()">calculate</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+<footer id= "main-footer">
+    <p> 
+     
+    </p>
+</footer>
+<script >
+
+    
+      const inpkey =document.getElementById("cnsc");
+      const inpvalue =document.getElementById("grd");
+      const btnInsert =document.getElementById("btnInsert");
+      const lsoutput =document.getElementById("lsOutput");
+
+btnInsert.onclick=function() {
+    const key =inpkey.value;
+    const value =inpvalue.value;
+
+
+if (key && value){
+  sessionStorage.setItem(key, value);
+    location.reload();
+}
+
+    };
+   for (let i = 0; i < sessionStorage.length; i++) {
+        const key =sessionStorage.key(i);
+        const value = sessionStorage.getItem(key);
+
+       document.getElementById("lsOutput").innerHTML += `${key}: ${value}<br />`;
+    }
+
+
+function calc() {
+
+
+var nclass =document.getElementById("num_classes").value;
+var cno =document.getElementById("course_name").value;
+var w1 = document.getElementById("Weight1").value;
+var w2 = document.getElementById("Weight2").value;
+var w3 = document.getElementById("Weight3").value;
+var w4 = document.getElementById("Weight4").value;
+var w5 = document.getElementById("Weight5").value;
+var w6 = document.getElementById("Weight6").value;
+var w7 = document.getElementById("Weight7").value;
+var w8 = document.getElementById("Weight8").value;
+var m1 = document.getElementById("mark1_100").value;
+var m2 = document.getElementById("mark2_100").value;
+var m3 = document.getElementById("mark3_100").value;
+var m4 = document.getElementById("mark4_100").value;
+var m5 = document.getElementById("mark5_100").value;
+var m6 = document.getElementById("mark6_100").value;
+var m7 = document.getElementById("mark7_100").value;
+var m8 = document.getElementById("mark8_100").value;
+var result = w1*m1/100 + w2*m2/100 + w3*m3/100 + w4*m4/100 + w5*m5/100 +w6*m6/100 +w7*m7/100 +w8*m8/100 ;
+
+var grade= result;
+
+
+
+if(!isNaN(result)){
+    document.getElementById("FG").innerHTML="Your Gpa is  "   +result;
+    console.log(result);
+}
+    document.getElementById('FinalGrade').innerHTML = w1*m1/100 + w2*m2/100 + w3*m3/100 + w4*m4/100 + w5*m5/100 +w6*m6/100 +w7*m7/100 +w8*m8/100 ;
+    if (nclass<=1){
+        document.getElementById("FG").innerHTML="Your Gpa for "+cno+" is "+result;
+    }
+}
+ function cal(){
+  var nc= document.getElementById("num_c").value;
+var c1 =  document.getElementById("course1").value
+var c2=  document.getElementById("course2").value;
+var c3=  document.getElementById("course3").value;
+var c4=  document.getElementById("course4").value;
+var c5= document.getElementById("course5").value;
+var c6=  document.getElementById("course6").value;
+var c7=  document.getElementById("course7").value;
+var c8= document.getElementById("course8").value;
+var result= (c1/100 + c2/100 + c3/100 + c4/100 + c5/100 + c6/100 + c7/100 + c8/100)*(100)/(nc/100)/100;
+
+if(!isNaN(result)){
+    document.getElementById("FG").innerHTML="Your overall Gpa is  "   +result;
+   
+}
+if (x != null) {
+    document.getElementById("FinalGrade").innerHTML =
+    "0121214548";
+  }
+
+ }
+
+</script>
+</body>
+</html>
