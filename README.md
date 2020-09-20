@@ -10,7 +10,7 @@
 -
 -You could actually visit this cite right now at this <strong>link<strong>
 
-![]samplegradeapp/tjgrade.jpg
+![](tjgrade.jpg)
 #Future Contributions
 -
 -In the future I hope to be able to add a feature that would allow users to send them the calculations that they have made dirrectly to their emails.
